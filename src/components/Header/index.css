@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+.hedaer-container {
+  list-style-type: none;
+  padding-top: 20px;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 45px;
+  height: 60px;
+  padding-top: 15px;
+}
+.logo-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #6d396b;
+  margin-left: 10px;
+  text-align: center;
+}
+.header-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #6d396b;
+  font-weight: 600;
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+  border: 0px solid #ffffff;
+  list-style-type: none;
+}
+@media (max-width: 765px) {
+  .hedaer-container {
+    padding-top: 10px;
+  }
+  .navbar-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .logo {
+    height: 45px;
+    width: 30px;
+  }
+  .list-name {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 10px;
+  }
+  .logo-heading {
+    font-size: 20px;
+  }
+}

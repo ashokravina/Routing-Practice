@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.home {
+  list-style-type: none;
+  padding-top: 100px;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 200px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #551e53;
+}
+@media (max-width: 765px) {
+  .heading {
+    font-size: 25px;
+  }
+  .img {
+    width: 120px;
+  }
+}
